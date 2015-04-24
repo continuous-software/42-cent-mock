@@ -5,7 +5,7 @@ mock implementation of abstract 42-cent payement gateway to use for tests
 
 * register the mock factory in place of whatever gateway, the factory will return a singleton instance of the mocked gateway
 
-```Javacript
+```Javascript
 var cent42=require('42-cent');
 var gm=require('42-cent-mock');
 
@@ -14,7 +14,7 @@ cent42.registerGateway('Authorize.net',gm.factory);
 ```
 
 * stub call and make assertions on arguments
-```Javacript
+```Javascript
 var stub = gm.when('refundTransaction').resolveWith({status:'success'});
 
 gm.factory().refundTransaction('666',{amount:123});
