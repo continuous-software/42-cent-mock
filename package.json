@@ -1,0 +1,26 @@
+{
+  "name": "42-cent-mock",
+  "version": "0.0.1",
+  "description": "fake implementation of 42-cent gateway for tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test",
+    "mock",
+    "payement",
+    "gateway",
+    "42-cent"
+  ],
+  "author": "Laurent Renard",
+  "license": "MIT",
+  "dependencies": {
+    "42-cent-base": "^0.9.0",
+    "bluebird": "^2.9.24"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/continuous-software/42-cent-mock.git"
+  }
+}
