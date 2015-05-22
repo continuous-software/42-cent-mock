@@ -39,7 +39,7 @@ methods.forEach(function (meth) {
 
     stub.calls.push(args);
 
-    return stub.resolveValue ? P.resolve(stub.resolveValue) : P.rejectValue(stub.rejectValue);
+    return stub.resolveValue ? P.resolve(stub.resolveValue) : P.reject(stub.rejectValue);
   }
 });
 
