@@ -1,6 +1,6 @@
 {
   "name": "42-cent-mock",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "fake implementation of 42-cent gateway for tests",
   "main": "index.js",
   "scripts": {
