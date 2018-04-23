@@ -1,4 +1,6 @@
 # 42-cent-mock
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/continuous-software/42-cent-mock.svg)](https://greenkeeper.io/)
 mock implementation of abstract 42-cent payement gateway to use for tests
 
 ## usage
